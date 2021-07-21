@@ -1,0 +1,35 @@
+Observações: Simulando corrente através de um circuito com fonte 12v e trimpot 10k
+
+Condições Iniciais: nivel_LT_200 abaixo de nivelBaixo_LT_200,nivel_LT_205 abaixo de nivelBaixo_LT_205, estado-AUTO
+
+Iniciando conexao com a rede WiFi..
+Conectado:
+10.80.0.129
+Captação Ativada OK
+Bomba 1 Selecionada OK
+Bomba Ligada OK
+Processo Iniciado OK---->>>CHANGE(O processo será iniciado apenas quando nivel_LT_200 estiver acima do nivelBaixo_LT_200)
+Etapa 1 ativada OK
+Etapa2 iniciada OK
+Bombeamento para os filtros iniciada OK
+Descarte iniciado OK
+Processo de descarte iniciado OK
+
+Saídas Ligadas:MB-505,MB-504,XV-502,MB-501 FAIL(MB-507 deveria ter sido acionado)
+
+--------nivel_LT_200 sobe para acima do nivelBaixo----------
+
+NADA OK
+
+--------nivel_LT_200 sobe para acima do nivelAlto
+NIVEL LT 200 800NIVEL Alto 200 800Captação Desativada OK
+Bombas Desligadas OK
+
+Saídas Ligadas:MB-505,MB-504,XV-502 OK
+
+-------nivel_LT_200 desce para abaixo do nivelBaixo--------
+Captação Ativada OK
+Bomba 1 Selecionada FAIL(Faltou trocar para Bomba 2)
+Bomba Ligada OK
+
+Saídas Ligadas:MB-505,MB-504,XV-502 FAIL(Faltou bomba de captação)

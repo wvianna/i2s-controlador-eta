@@ -1,0 +1,67 @@
+Modificações: 
+-O nivel_LT_200 agora tem que se manter por 25s acima do nivelBaixo_LT_200 para o processo começar
+-A MB-507 só ativará quando o processo começar
+-A MB-506 irá ser interrompida a qualquer momento em que LSL-203 for ativado
+
+Observações: Simulando corrente através de um circuito com fonte 12v e trimpot 10k
+
+Condições Iniciais: nivel_LT_200 abaixo de nivelBaixo_LT_200,nivel_LT_205 abaixo de nivelBaixo_LT_205, estado-AUTO
+
+
+--------nivel_LT_200 sobe para acima do nivelBaixo----------
+10.80.0.129
+Captação Ativada OK
+NIVEL LT-200 197
+NIVEL Baixo LT-200 200
+Bomba MB-501 Selecionada OK
+Bomba Ligada OK
+
+Saídas Ligadas: MB-501 OK
+
+--------nivel_LT_200 sobe para acima do nivelAlto----------
+Processo Iniciado OK
+Etapa 1 ativada OK
+Etapa2 iniciada OK
+Bombeamento para os filtros iniciada OK
+Descarte iniciado OK
+Processo de descarte iniciado OK
+
+Saídas Ligadas: MB-505,MB-504,XV-502,MB-501,MB-506,MB-507 OK
+
+--------nivel_LT_200 sobe para acima do nivelAlto-----
+NIVEL LT 200 511NIVEL Alto LT-200 500Captação Desativada
+Bombas Desligadas OK
+
+Saídas Ligadas: MB-505,MB-504,XV-502,MB-506,MB-507 OK
+
+--------nivel_LT_200 desce para abaixo do nivelAlto-----
+NADA:
+
+Saídas Ligadas: MB-505,MB-504,XV-502,MB-506,MB-507 OK
+
+--------nivel_LT_200 desce para abaixo do nivelBaixo-----
+Captação Ativada
+NIVEL LT-200 191 
+NIVEL Baixo LT-200 200 
+Bomba MB-500 Selecionada OK
+Bomba Ligada OK
+Processo Parado OK
+Etapa 1 desativada OK
+Bombeamento para os filtros interrompida OK
+
+Saídas Ligadas: MB-500, MB-506 OK
+
+--------nivel_LT_200 desce para acima do nivelBaixo-----
+Processo Iniciado OK
+Etapa 1 ativada OK
+Etapa2 iniciada OK
+Bombeamento para os filtros iniciada OK
+
+Saídas Ligadas: MB-505,MB-504,XV-502,MB-500,XV-503,MB-506,MB-507
+
+
+
+
+
+
+
